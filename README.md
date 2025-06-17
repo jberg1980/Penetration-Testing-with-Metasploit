@@ -5,6 +5,7 @@
 
 ## STEP 2: Setting Up Target Virtual Machines
 2.1 To set up home lab I have downloaded these:
+
 •	VirtualBox 
 •	Metasploitable 2 download 
 •	Windows 10
