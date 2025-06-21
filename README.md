@@ -62,3 +62,24 @@
 - Select Payload: show options to view configuration, set to configure options like R-host, port, username, and password
 - Run Exploit: run / exploit to gain access to the target system
 
+### STEP 9: Meterpreter Deep Dive
+1.	Meterpreter Overview: Meterpreter stands for Metasploit Interpreter and is a post-exploitation tool within Metasploit that provides modular exploitation and post-exploitation features for various targets, including Windows, Linux, and Android.
+2.	Client-Server Communication: Meterpreter operates on a client-server model where the target system acts as the server, and the attacker's system acts as the client.
+3.	Reflective DLL Injection: Meterpreter uses reflective DLL injection to load necessary features into the memory of the target system, minimizing the footprint on the attacked system.
+4.	Post-Exploitation Features: Meterpreter is a bundle of post-exploitation features that extend Metasploit's functionalities on the exploited system.
+5.	Persistence and Monitoring: It allows for establishing persistence on the compromised system and can monitor users, keystrokes, record audio, and capture webcam footage without leaving system traces.
+6.	Network Pivoting: Meterpreter can be used to pivot into other systems on the network, expanding the scope of penetration testing.
+
+### STEP 10: Client-Side Exploitation
+What is client-side attacks?
+1.	Client-Side Vulnerabilities: These attacks exploit vulnerabilities on the end-user platform, such as web browsers, PDFs, and word processing documents.
+2.	Higher Attack Surface: Compared to network-based attacks, client-side attacks have a significantly larger attack surface, increasing the chances of success.
+3.	Employee Awareness: Employees are often the biggest threat to cybersecurity due to low awareness levels about various types of cyber attacks.
+
+### STEP 11: Post-Exploitation
+1.	Post-exploitation features: Once a system is compromised, Metasploit offers various post-exploitation modules for managing, gathering information, capturing activities, and privilege escalation.
+2.	Persistence: Ensuring continued access to a compromised system by adding a new user and enabling remote desktop access (RDP).
+3.	Session-specific exploits: Some post-exploitation modules work only under certain conditions, such as specific types of sessions (e.g., Meterpreter sessions).
+
+## Conclusion Summary
+The Metasploit Framework is a powerful, versatile, and widely used open-source penetration testing platform. It enables security professionals and ethical hackers to identify and exploit vulnerabilities in systems and networks. Its core strength lies in its modular architecture, allowing for customization and extensibility with a vast library of exploits, payloads, and auxiliary modules. 
