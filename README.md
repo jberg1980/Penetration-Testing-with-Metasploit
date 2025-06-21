@@ -6,10 +6,10 @@
 ### STEP 2: Setting Up Target Virtual Machines
 2.1 To set up home lab I have downloaded these:
 
-•	VirtualBox 
-•	Metasploitable 2
-•	Windows 10
-•	Kali Download 
+- VirtualBox 
+-	Metasploitable 2
+-	Windows 10
+-	Kali Download 
 
 ### STEP 3: Run Basic Commands
 3.1 Running Metasploit msfconsole on my Kali Linux VM.
