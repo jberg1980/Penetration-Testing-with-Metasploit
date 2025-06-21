@@ -1,10 +1,10 @@
 ## Penetration-Testing-with-Metasploit 
 
 ### STEP 1: Installation 
-1.1 Before installing Metasploit the anti-virus, firewall and intrusion detection/prevention systems settings must be turned off. I installed Metasploit on my Windows machine
+1. Before installing Metasploit the anti-virus, firewall and intrusion detection/prevention systems settings must be turned off. I installed Metasploit on my Windows machine
 
 ### STEP 2: Setting Up Target Virtual Machines
-2.1 To set up home lab I have downloaded these:
+1 To set up home lab I have downloaded these:
 
 - VirtualBox 
 -	Metasploitable 2
@@ -12,10 +12,10 @@
 -	Kali Download 
 
 ### STEP 3: Run Basic Commands
-3.1 Running Metasploit msfconsole on my Kali Linux VM.
-3.2 Run the help command.
-3.3 Run the search command. The search windows command will only display exploits which affect Windows. The search -h command list all other options.
-3.4 Run the info command allows me to retrieve detailed information about a specific module. Here I ran the info 0 command to interact with a module by index
+1. Running Metasploit msfconsole on my Kali Linux VM.
+2. Run the help command.
+3. Run the search command. The search windows command will only display exploits which affect Windows. The search -h command list all other options.
+4. Run the info command allows me to retrieve detailed information about a specific module. Here I ran the info 0 command to interact with a module by index
 
 ### STEP 4: Exploits and Payloads
 4.1 Selecting and Using Exploits: How to search for and select specific exploits, such as the "doublepulsar" exploit for SMB vulnerabilities, using commands like use, check, run, and exploit.
