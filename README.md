@@ -18,21 +18,21 @@
 4. Run the info command allows me to retrieve detailed information about a specific module. Here I ran the info 0 command to interact with a module by index
 
 ### STEP 4: Exploits and Payloads
-4.1 Selecting and Using Exploits: How to search for and select specific exploits, such as the "doublepulsar" exploit for SMB vulnerabilities, using commands like use, check, run, and exploit.
-4.2 Payloads: Once an exploit is selected, a payload is automatically attached. Payloads are specific commands executed after successfully exploiting a target. You can change the payload to suit your needs.
-4.3 Configuration and Execution: Before launching an exploit, you need to configure various options, such as setting the target's IP address (RHOST) and your system's IP address (LHOST). The show options command helps you see these configurations.
+1. Selecting and Using Exploits: How to search for and select specific exploits, such as the "doublepulsar" exploit for SMB vulnerabilities, using commands like use, check, run, and exploit.
+2. Payloads: Once an exploit is selected, a payload is automatically attached. Payloads are specific commands executed after successfully exploiting a target. You can change the payload to suit your needs.
+3. Configuration and Execution: Before launching an exploit, you need to configure various options, such as setting the target's IP address (RHOST) and your system's IP address (LHOST). The show options command helps you see these configurations.
 
 ### STEP 5: Metasploit Database Basics
-5.1 Database Support: Metasploit supports the PostgreSQL database by default, which comes with a default configuration.
-5.2 Service Status and Initialization: You can check the status of PostgreSQL and the Metasploit database (MSF DB) using commands like systemctl and msfdb status. If needed, you can reinitialize the database with msfdb reinit.
-5.3 Database Commands: Here will cover essential commands such as db_status, db_connect, and db_disconnect to manage the database within the Metasploit framework.
+1. Database Support: Metasploit supports the PostgreSQL database by default, which comes with a default configuration.
+2. Service Status and Initialization: You can check the status of PostgreSQL and the Metasploit database (MSF DB) using commands like systemctl and msfdb status. If needed, you can reinitialize the database with msfdb reinit.
+3. Database Commands: Here will cover essential commands such as db_status, db_connect, and db_disconnect to manage the database within the Metasploit framework.
 
 ### STEP 6: Information Gathering Using Metasploit
-6.1 Passive Information Gathering: How to use Metasploit for passive information gathering, including commands like ping, traceroute, dig, and nslookup.
-6.2 Using msfconsole: I can perform these information gathering activities directly from the Metasploit console (msfconsole), similar to how you would use a normal command prompt or terminal.
-6.3 Importing Scans: I can import already run Nmap scans into Metasploit using the db_import command, which accepts input in XML format.
-6.4 Direct Scanning: The db_nmap command allows me to run Nmap scans directly within Metasploit, automatically importing the results into the Metasploit database.
-6.5 Verification: Use the hosts command to verify that the scan results have been successfully imported into the Metasploit database.
+6.1. Passive Information Gathering: How to use Metasploit for passive information gathering, including commands like ping, traceroute, dig, and nslookup.
+6.2. Using msfconsole: I can perform these information gathering activities directly from the Metasploit console (msfconsole), similar to how you would use a normal command prompt or terminal.
+6.3. Importing Scans: I can import already run Nmap scans into Metasploit using the db_import command, which accepts input in XML format.
+6.4. Direct Scanning: The db_nmap command allows me to run Nmap scans directly within Metasploit, automatically importing the results into the Metasploit database.
+6.5. Verification: Use the hosts command to verify that the scan results have been successfully imported into the Metasploit database.
 6.6Auxiliary Scanners: Metasploit provides specific auxiliary scanners for information gathering, which can be used in addition to Nmap.
 6.7 Validation and Scenarios: These scanners are useful for validating results and in scenarios where Nmap cannot be used, such as during pivoting exploits.
 6.8 Auxiliary Scanners: Metasploit includes auxiliary scanners for various protocols like TCP, UDP, and ARP. These scanners can be used to run specific scans against a target.
