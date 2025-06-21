@@ -57,8 +57,8 @@
 8.	Configuring and Running the Exploit: The configuration of necessary options like R-host, port, username, and password, and demonstrates running the exploit to gain access to the target system.
 
 ### The correct sequence of commands:
-|Run Scanners     |nmap  against a target without additional flags or qualifiers|
-|Identify Exploit |search for specific open services by ports, use by selecting index number of the exploit|
-|Select Payload   |show options to view configuration, set to configure options like R-host, port, username, and password|
-|Run Exploit      |run / exploit to gain access to the target system|
+- Run Scanners: use nmap against a target without additional flags or qualifiers
+- Identify Exploit: search for specific open services by ports, use by index number of the exploit
+- Select Payload: show options to view configuration, set to configure options like R-host, port, username, and password
+- Run Exploit: run / exploit to gain access to the target system
 
