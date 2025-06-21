@@ -33,10 +33,10 @@
 3. Importing Scans: I can import already run Nmap scans into Metasploit using the db_import command, which accepts input in XML format.
 4. Direct Scanning: The db_nmap command allows me to run Nmap scans directly within Metasploit, automatically importing the results into the Metasploit database.
 5. Verification: Use the hosts command to verify that the scan results have been successfully imported into the Metasploit database.
-6 Auxiliary Scanners: Metasploit provides specific auxiliary scanners for information gathering, which can be used in addition to Nmap.
-7 Validation and Scenarios: These scanners are useful for validating results and in scenarios where Nmap cannot be used, such as during pivoting exploits.
-8 Auxiliary Scanners: Metasploit includes auxiliary scanners for various protocols like TCP, UDP, and ARP. These scanners can be used to run specific scans against a target.
-9 TCP Scans: How to run a TCP scan using the auxiliary scanner and compares the results with an Nmap scan, showing similar findings.
+6. Auxiliary Scanners: Metasploit provides specific auxiliary scanners for information gathering, which can be used in addition to Nmap.
+7. Validation and Scenarios: These scanners are useful for validating results and in scenarios where Nmap cannot be used, such as during pivoting exploits.
+8. Auxiliary Scanners: Metasploit includes auxiliary scanners for various protocols like TCP, UDP, and ARP. These scanners can be used to run specific scans against a target.
+9. TCP Scans: How to run a TCP scan using the auxiliary scanner and compares the results with an Nmap scan, showing similar findings.
 
 ### STEP 7: Vulnerability Assessment using Metasploit 
 1.	WMAP Overview: WMAP is a vulnerability assessment tool built around sqlmap, primarily used for SQL injections.
